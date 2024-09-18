@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Organização de ladrões maneiros</title>
+</head>
+<body>
+    
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.png" alt="OML">
+        <p>Esta é a história  de um ladrão, ou ladra, onde você fará parte de uma organização secreta que te dará missões. Seja a monalisa, ou um fio de cabelo do Justinn Bieber, viva sua própria aventura.</p>
+        <button class="btn-proximo" data-proximo="1">Primeira missão</button>  
+        <button class="btn-proximo" data-proximo="2">Não estou afim agora</button>
+
+    </div>
+    <div class="passo" id="passo-1">
+        <img src="cenario-passo1.jpg" alt="Email da primeira missão">
+        <p>A OLM (Organização de Ladrões Maneiros) te envia sua primeira missão. Seu cliente deseja que você roube a coroa da falecida Rainha Elizabeth. </p>
+        <button class="btn-proximo" data-proximo="3">Aceitar missão</button>  
+        <button class="btn-proximo" data-proximo="0">Quem sabe mais tarde</button>
+
+    </div>
+
+    <div class="passo" id="passo-2">
+        <img src="cenario-passo0.png" alt="OML">
+        <p>Você volta para OML.</p>
+        <button class="btn-proximo" data-proximo="0">Voltar pra tela inicial</button>
+    </div>
+
+    <div class="passo" id="passo-3">
+        <img src="cenario-passo3.webp" alt="Seus equipamentos">
+        <p>Você se prepara, pegando seus equipamentos e preparando a rota de entrada e de fuga.</p>
+        <button class="btn-proximo" data-proximo="4">"Não vejo a hora!"</button>
+        <button class="btn-proximo" data-proximo="2">"Quero voltar!"</button>
+    </div>
+
+    <div class="passo" id="passo-4">
+        <img src="cenario-passo4.jpg" alt="Torre de Londres">
+        <p>Chegando na Torre de Londres você imobiliza um dos guardas, da Guarda Real, e começa a escalar uma das torres.</p>
+        <button class="btn-proximo" data-proximo="5">"Nossa, aqui é muito alto!"</button>
+        <button class="btn-proximo" data-proximo="2">"Isso está muito perigoso, vou voltar"</button>
+    </div>
+
+    <div class="passo" id="passo-5">
+        <img src="cenario-passo5.jpeg" alt="Janela aberta">
+        <p>Você entra por uma das janelas e se esconde. Após perceber que não há nenhum guarda por perto, você continua.</p>
+        <button class="btn-proximo" data-proximo="6">"Vamos pegar a coroa!"</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+        <img src="cenario-passo6.jpg" alt="Porta da sala da coroa">
+        <p>Você chega a sala da Coroa, mas vê um guarda.</p>
+        <button class="btn-proximo" data-proximo="8">Lutar com ele</button>
+        <button class="btn-proximo" data-proximo="7">Pedir por piedade</button>
+    </div>
+
+    <div class="passo" id="passo-7">
+        <img src="cenario-passo7.jpeg" alt="OML">
+        <p>Você é preso.</p> 
+        <button class="btn-proximo" data-proximo="0">Voltar pra tela inicial</button>
+    </div>
+
+    <div class="passo" id="passo-8">
+        <img src="cenario-passo8.jpeg" alt="Coroa">
+        <p>Você ganha a luta e entra na sala, avistando a belíssima coroa.</p>
+        <button class="btn-proximo" data-proximo="9">"Vamos pegá-la!"</button>
+    </div>
+
+    <div class="passo" id="passo-9">
+        <img src="cenario-passo9.avif" alt="Corredor">
+        <p>Você desvia de todos os lasers e pega a coroa. Um alarme dispara, e você corre!</p>
+        <button class="btn-proximo" data-proximo="10">Rota de fuga</button>
+        <button class="btn-proximo" data-proximo="7">Me entregar</button>
+    </div>
+
+    <div class="passo" id="passo-10">
+        <img src="cenario-passo10.jpg" alt="Arma de choque">
+        <p>Você consegue fugir, nocauteando os guardas e usando sua arma de choque.</p>
+        <button class="btn-proximo" data-proximo="11">Continuar</button>
+    </div>
+
+    <div class="passo" id="passo-11">
+        <img src="cenario-passo11.jpg" alt="Festa de parabéns">
+        <p>Ao chegar na OML você entrega a coroa, e recebe os parabéns de seu chefe, além de ganhar um pagamento bem alto. Parabéns pela sua missão!</p>
+    </div>
+</main>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
